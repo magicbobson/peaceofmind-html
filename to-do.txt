@@ -1,0 +1,11 @@
+
+peaceofmind stuff to fix
+------------------------
+
+nav
+    burger has disappeared
+    on xs, image too wide and get whitespace on right
+    
+header
+    h2 get text in right position?
+

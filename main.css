@@ -1,9 +1,20 @@
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
+    /* background: #f2f6e9; */
+    font-family: "Open-Sans", Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+
+
+/***********************************************/
 /* nav */
 .navbar {
     background:#fff;
@@ -11,7 +22,7 @@ body {
 
 .nav-link,
 .navbar-brand {
-    color: #3399FF;
+    color: #2271c3;
     cursor: pointer;
 }
 
@@ -28,7 +39,8 @@ body {
 }
 
 
-/* full width landing page image */
+/***********************************************/
+/* landing page header */
 .header {
     background-image: url('images/sailing.jpg');
     background-size: cover;
@@ -43,45 +55,73 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.0);
 }
 
 /* header content */
-.description {
+.header-content {
 	left: 50%;
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	transform: translate(-50%, -55%);
 	text-align: center;
 }
 
-.description h1 {
-	color: #6ab446;
+.header-content .title {
+    font-size: 1.8rem;
+    /* font-weight: bold; */
+	color: #2271c3;
 }
 
-.description p {
+.header-content .strap {
 	color: #fff;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	line-height: 1.5;
+    margin-top: 50px;
 }
 
 /* header CTA */
-.description button {
+/* .header-content button {
     border:1px solid #6ab446;
     background:#6ab446;
     border-radius: 0;
     color:#fff;
 }
 
-.description button:hover {
+.header-content button:hover {
 	border:1px solid #fff;
     background:#fff;
     color:#000;
+} */
+
+
+/***********************************************/
+/* work list */
+.work-list .row {
+    margin-top: 20px;
+}
+.work-list .row .col {
+    margin-left: 10px;
 }
 
+
+/***********************************************/
+/* font awesome */
+.icon {
+    color: #2271c3;
+}
+.icon-circle { 
+    font-size: 2.1rem;
+    position: relative;
+    top: -0.1rem;
+}
+
+
+/***********************************************/
 /* features section */
 .features {
 	margin: 4em auto;
+	/* margin-bottom: 4em auto; */
 	padding: 1em;
 	position: relative;
 }
@@ -100,6 +140,31 @@ body {
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	margin-bottom: 16px;
 }
+
+
+/***********************************************/
+/* disclaimer */
+.disclaimer {
+    padding-top: 10px;
+    background-color: #eee;
+    border: 1px solid gray;
+    text-align: center;    
+    margin-bottom: 50px;
+}
+
+
+/***********************************************/
+/* disclaimer */
+.bigquote {
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: #2271c3;
+    color: #fff;   
+}
+
 
 /* team section */
 .background {
@@ -144,7 +209,7 @@ body {
 /* media queries (adjustments for mobile) */
 @media (max-width: 575.98px) {
 
-    .description {
+    .header-content {
         left: 0;
         padding: 0 15px;
         position: absolute;
@@ -153,11 +218,11 @@ body {
         text-align: center;
     }
  
-    .description h1 {
+    .header-content h1 {
         font-size: 2em;
     }
  
-    .description p {
+    .header-content p {
         font-size: 1.2rem;
     }
  
