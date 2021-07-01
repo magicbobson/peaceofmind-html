@@ -13,6 +13,11 @@ h3 {
     font-size: 1.25rem;
 }
 
+/* .text-primary .bg-primary {
+    color: #2271c3;
+    color: red;
+} */
+
 
 /***********************************************/
 /* nav */
@@ -38,6 +43,9 @@ h3 {
     justify-content: flex-end;
 }
 
+.navbar-toggler {
+    background-color: #2271c3;
+}
 
 /***********************************************/
 /* landing page header */

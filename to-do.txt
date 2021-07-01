@@ -3,9 +3,23 @@ peaceofmind stuff to fix
 ------------------------
 
 nav
-    burger has disappeared
+    h2 get sub menus?
     on xs, image too wide and get whitespace on right
     
 header
     h2 get text in right position?
 
+page
+    font - h2 get nice like on main site / our plugins?
+    
+
+
+DONE
+----
+
+nav
+    burger has disappeared
+
+
+
+    
