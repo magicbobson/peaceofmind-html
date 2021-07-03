@@ -73,39 +73,33 @@ h3 {
 
 /* header content */
 .header-content {
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -55%);
-	text-align: center;
+    height: 100%;
+    text-align: center;
+}
+
+.header-content .row {
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+.header-content .col {
+    display: flex;
 }
 
 .header-content .title {
     font-size: 1.8rem;
-    /* font-weight: bold; */
-	color: #2271c3;
+ 	color: #2271c3;    
+    align-items: flex-end;
+    /* padding-bottom: 100px; */
 }
 
 .header-content .strap {
+    text-align: center;
 	color: #fff;
 	font-size: 1.5rem;
-	line-height: 1.5;
-    margin-top: 50px;
+    /* display: flex; */
+    /* align-items: flex-start; */
 }
-
-/* header CTA */
-/* .header-content button {
-    border:1px solid #6ab446;
-    background:#6ab446;
-    border-radius: 0;
-    color:#fff;
-}
-
-.header-content button:hover {
-	border:1px solid #fff;
-    background:#fff;
-    color:#000;
-} */
 
 
 /***********************************************/
