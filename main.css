@@ -1,3 +1,9 @@
+/***********************************************/
+/* CSS variables */
+:root {
+    --pom-blue: #2271c3;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -28,7 +34,7 @@ h3 {
 .navbar .nav-link,
 .navbar .navbar-brand,
 .navbar .dropdown-item {
-    color: #2271c3;
+    color: var(--pom-blue);
     cursor: pointer;
 }
 
@@ -43,7 +49,7 @@ h3 {
 }
 
 .navbar .dropdown-menu {
-    border: 1px solid #2271c3;
+    border: 1px solid var(--pom-blue);
 }
 
 /* .nav-link:hover {
@@ -55,7 +61,7 @@ h3 {
 } */
 
 .navbar-toggler {
-    background-color: #2271c3;
+    background-color: var(--pom-blue);
 }
 
 /***********************************************/
@@ -94,7 +100,7 @@ h3 {
 
 .header-content .title {
     font-size: 1.8rem;
- 	color: #2271c3;    
+ 	color: var(--pom-blue);
     align-items: flex-end;
     /* padding-bottom: 100px; */
 }
@@ -113,7 +119,7 @@ h3 {
 .page-title {
     /* height: 40px; */
     color: #fff;
-    background-color: #2271c3;
+    background-color: var(--pom-blue);
     margin-bottom: 30px;
 }
 
@@ -132,7 +138,7 @@ h3 {
 /***********************************************/
 /* font awesome */
 .icon {
-    color: #2271c3;
+    color: var(--pom-blue);
 }
 .icon-circle { 
     font-size: 2.1rem;
@@ -185,7 +191,7 @@ h3 {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
-    background-color: #2271c3;
+    background-color: var(--pom-blue);
     color: #fff;   
 }
 
@@ -233,7 +239,7 @@ h3 {
 }
 
 .footer-links a {
-    color: #2271c3;    
+    color: var(--pom-blue);
 }
 
 .footer-copyright {
