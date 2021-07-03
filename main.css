@@ -10,6 +10,7 @@ body {
     /* background: #f2f6e9; */
     font-family: "Open-Sans", Arial, Helvetica, sans-serif;
     text-align: justify;
+    color: #444;
 }
 
 h1 {
@@ -115,7 +116,6 @@ h3 {
 
 
 /***********************************************/
-/* work list */
 .page-title {
     /* height: 40px; */
     color: #fff;
@@ -126,7 +126,6 @@ h3 {
 
 
 /***********************************************/
-/* work list */
 .work-list .row {
     margin-top: 20px;
 }
@@ -148,9 +147,37 @@ h3 {
 
 
 /***********************************************/
+/* main page content */
+.page-text .row {
+    margin: 3em auto;
+}
+
+
+/***********************************************/
+/* call to action panel */
+.cta {
+    padding: 50px;
+    background-color: var(--pom-blue);
+    text-align: center;
+    color: #fff;
+}
+.cta .btn {
+    background-color: var(--pom-blue);
+    cursor: pointer;
+}
+.cta:hover {
+}
+.cta a, .cta a:hover {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+/***********************************************/
 /* features section */
 .features {
-	margin: 4em auto;
+	margin: 3em auto;
 	/* margin-bottom: 4em auto; */
 	padding: 1em;
 	position: relative;
