@@ -6,6 +6,10 @@ body {
     text-align: justify;
 }
 
+h1 {
+    font-size: 1.75rem;
+}
+
 h2 {
     font-size: 1.5rem;
 }
@@ -34,6 +38,12 @@ h3 {
 
 .nav-link {
     margin-right: 1em !important;
+}
+
+.nav-link.active,
+.dropdown-item.active {
+    color: #fff;
+    background-color: #2271c3;
 }
 
 .navbar .dropdown-menu {
@@ -100,6 +110,16 @@ h3 {
     /* display: flex; */
     /* align-items: flex-start; */
 }
+
+
+/***********************************************/
+/* work list */
+.page-title {
+    /* height: 40px; */
+    color: #fff;
+    background-color: #2271c3;
+}
+
 
 
 /***********************************************/

@@ -2,20 +2,23 @@
 peaceofmind stuff to fix
 ------------------------
 
-nav
-    h2 get sub menus?
-    on xs, image too wide and get whitespace on right
-    
 header
     h2 get text in right position?
 
-page
-    font - h2 get nice like on main site / our plugins?
+colours
+    h2 set base font colours?
+    
+font
+    h2 get nice like on main site / GTI plugins?
     
 
 
 DONE
 ----
+
+nav
+    h2 get sub menus?
+    on xs, image too wide and get whitespace on right
 
 nav
     burger has disappeared
