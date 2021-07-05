@@ -25,7 +25,7 @@ h2 {
 h3 {
     font-size: 1.1rem;
     text-align: left;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 
@@ -63,6 +63,39 @@ h3 {
 .navbar-toggler {
     background-color: var(--pom-blue);
 }
+
+
+/***********************************************/
+.page-title {
+    /* height: 40px; */
+    color: #fff;
+    background-color: var(--pom-blue);
+    margin-bottom: 30px;
+}
+
+
+/***********************************************/
+/* main page content */
+.page-text .row {
+    margin: 3em auto;
+    /* border: 1px solid orange; */
+}
+/* .col-sm-1, .col-xs-2, .col {
+    border: 1px solid orange;
+} */
+
+
+/***********************************************/
+/* font awesome */
+.icon {
+    color: var(--pom-blue);
+}
+.icon-circle { 
+    font-size: 2.1rem;
+    position: relative;
+    top: -0.1rem;
+}
+
 
 /***********************************************/
 /* landing page header */
@@ -115,16 +148,6 @@ h3 {
 
 
 /***********************************************/
-.page-title {
-    /* height: 40px; */
-    color: #fff;
-    background-color: var(--pom-blue);
-    margin-bottom: 30px;
-}
-
-
-
-/***********************************************/
 .work-list .row {
     margin-top: 20px;
 }
@@ -134,31 +157,15 @@ h3 {
 
 
 /***********************************************/
-/* font awesome */
-.icon {
-    color: var(--pom-blue);
-}
-.icon-circle { 
-    font-size: 2.1rem;
-    position: relative;
-    top: -0.1rem;
-}
-
-
-/***********************************************/
-/* main page content */
-.page-text .row {
-    margin: 3em auto;
-}
-
-
-/***********************************************/
 /* call to action panel */
 .cta {
     padding: 50px;
     background-color: var(--pom-blue);
-    text-align: center;
     color: #fff;
+    text-align: center;
+}
+.cta h2, .cta p {
+    text-align: center;
 }
 .cta .btn {
     background-color: var(--pom-blue);
