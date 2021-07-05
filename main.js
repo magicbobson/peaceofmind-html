@@ -4,5 +4,8 @@ var ready = (callback) => {
 }
 
 ready(() => {
-    document.querySelector(".header").style.height = window.innerHeight + "px";
+    var header = document.querySelector(".header");
+    if (header) {
+        header.style.height = window.innerHeight + "px";
+    }
 })

@@ -15,19 +15,18 @@ body {
 
 h1 {
     font-size: 1.75rem;
+    text-align: left;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    text-align: left;
 }
 h3 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    text-align: left;
+    font-weight: bold;
 }
-
-/* .text-primary .bg-primary {
-    color: #2271c3;
-    color: red;
-} */
 
 
 /***********************************************/

@@ -5,8 +5,7 @@ peaceofmind stuff to fix
 header
     h2 get text in right position?
 
-colours
-    h2 set base font colours?
+
     
 font
     h2 get nice like on main site / GTI plugins?
@@ -16,6 +15,10 @@ font
 DONE
 ----
 
+colours
+    h2 set base font colours?
+    a - css variables
+        
 nav
     h2 get sub menus?
     on xs, image too wide and get whitespace on right
