@@ -23,10 +23,12 @@ h2 {
     text-align: left;
 }
 h3 {
+    /* margin-top: 30px; */
     font-size: 1.1rem;
     text-align: left;
-    /* font-weight: bold; */
+    /* font-weight: 550; */
 }
+
 
 
 /***********************************************/
@@ -153,6 +155,14 @@ h3 {
 }
 .work-list .row .col {
     margin-left: 10px;
+}
+.work-list p.title {
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.work-list p {
+    margin: 0;
 }
 
 
