@@ -78,11 +78,8 @@ h3 {
 
 /***********************************************/
 /* main page content */
-.page-text .row {
+/* .page-text .row {
     margin: 3em auto;
-    /* border: 1px solid orange; */
-}
-/* .col-sm-1, .col-xs-2, .col {
     border: 1px solid orange;
 } */
 
@@ -169,6 +166,7 @@ h3 {
 /***********************************************/
 /* call to action panel */
 .cta {
+    margin-top: 3em;
     padding: 50px;
     background-color: var(--pom-blue);
     color: #fff;
@@ -225,7 +223,23 @@ h3 {
 
 
 /***********************************************/
-/* disclaimer */
+/* testimonial */
+.testimonial {
+    padding: 20px;
+    background-color: #eee;
+    margin-bottom: 30px;
+}
+.testimonial .icon {
+    float: left;
+    margin-right: 10px;
+    /* position: relative;
+    top: auto;
+    left: auto; */
+}
+
+
+/***********************************************/
+/* bigquote */
 .bigquote {
     margin-bottom: 50px;
     padding-top: 30px;
