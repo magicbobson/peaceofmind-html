@@ -224,17 +224,28 @@ h3 {
 
 /***********************************************/
 /* testimonial */
-.testimonial {
-    padding: 20px;
-    background-color: #eee;
-    margin-bottom: 30px;
+.card.testimonial {
+    /* padding: 20px; */
+    /* background-color: #eee; */
+    /* margin-bottom: 30px; */
+    border: none;
+    font-size: 0.9em;
+}
+.testimonial .stack-holder {
+    /* background-color: red; */
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 15px;
 }
 .testimonial .icon {
-    float: left;
-    margin-right: 10px;
+    /* float: left; */
+    /* margin-right: 10px; */
     /* position: relative;
     top: auto;
     left: auto; */
+}
+.testimonial .card-body {
+    padding-bottom: 0;
 }
 
 
@@ -250,34 +261,6 @@ h3 {
     color: #fff;   
 }
 
-
-/* team section */
-.background {
-	background: #dedec8;
-	padding: 4em 0;
-}
-
-.team {
-	color: #5e5e55;
-	padding: 0 180px;
-}
-
-.team .card-columns {
-	-webkit-column-count: 4;
-	-moz-column-count: 4;
-	column-count: 4;
-}
-
-.team .card {
-	background:none;
-	border: none;
-}
-
-.team .card-title {
-	font-size: 1.3rem;
-	margin-bottom: 0;
-	text-transform: uppercase;
-}
 
 /* footer */
 .page-footer {
