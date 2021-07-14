@@ -1,0 +1,125 @@
+/***********************************************/
+/* nav */
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .dropdown-item {
+    color: var(--pom-blue);
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link.active,
+.dropdown-item.active {
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.navbar .dropdown-menu {
+    border: 1px solid var(--pom-blue);
+}
+
+.navbar-toggler {
+    background-color: var(--pom-blue);
+}
+
+
+/***********************************************/
+/* home page header */
+header {
+    background-image: url('../images/sailing.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: calc(100vh - 75px);
+}
+
+/* this will darken the image */
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+/* header content */
+header h1 {
+    font-size: 1.6rem;
+ 	color: var(--pom-blue);
+    line-height: 1.5;
+}
+
+header h2 {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+header .cta-holder {
+    position: absolute;
+    bottom: 20px;
+    left: 48%;
+}
+header .cta-holder .icon {
+    /* margin-top: -100px; */
+    /* font-size: 2rem; */
+    /* color: #fff; */
+}
+header .cta-holder .icon-circle { 
+    /* font-size: 3rem; */
+    /* position: relative; */
+    /* top: -0.1rem; */
+}
+
+
+/***********************************************/
+/* features section on home page */
+.features {
+	margin: 3em auto;
+	/* margin-bottom: 4em auto; */
+	padding: 1em;
+	position: relative;
+}
+
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.features .work-list .row {
+    margin-top: 20px;
+}
+.features .work-list .row .col {
+    margin-left: 10px;
+}
+.features .work-list p.title {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+
+/***********************************************/
+/* bigquote */
+.bigquote {
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: var(--pom-blue);
+    color: #fff;   
+}
+

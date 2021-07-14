@@ -1,0 +1,96 @@
+/***********************************************/
+/* CSS variables */
+:root {
+    --pom-blue: #2271c3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open-Sans", Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #444;
+}
+
+h1 {
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.3rem;
+    text-align: left;
+}
+h3 {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+
+/***********************************************/
+.page-title {
+    /* height: 40px; */
+    color: #fff;
+    background-color: var(--pom-blue);
+    margin-bottom: 30px;
+}
+
+
+/***********************************************/
+/* call to action panel */
+.cta {
+    margin-top: 3em;
+    padding: 50px;
+    background-color: var(--pom-blue);
+    color: #fff;
+    text-align: center;
+}
+.cta h2, .cta p {
+    text-align: center;
+}
+.cta .btn {
+    background-color: var(--pom-blue);
+    cursor: pointer;
+}
+.cta a, .cta a:hover {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+/***********************************************/
+/* font awesome */
+.icon {
+    color: var(--pom-blue);
+}
+.icon-circle { 
+    font-size: 2.1rem;
+    position: relative;
+    top: -0.1rem;
+}
+
+
+/***********************************************/
+/* testimonial */
+.card.testimonial {
+    font-size: 0.9em;
+}
+
+
+/***********************************************/
+/* footer */
+.footer-links {
+    font-weight: bold;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: var(--pom-blue);
+}
+
