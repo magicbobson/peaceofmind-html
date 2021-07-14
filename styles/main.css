@@ -77,8 +77,8 @@ h3 {
 
 /***********************************************/
 /* testimonial */
-.card.testimonial {
-    font-size: 0.9em;
+.card .testimonial {
+    /* font-size: 0.9em; */
 }
 
 
