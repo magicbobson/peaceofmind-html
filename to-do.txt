@@ -6,9 +6,6 @@ header
     h2 get text in right position?
     CTA arrow scroll down to content
 
-testimonials
-    position quote font awesome top centre of box
-    
 font
     h2 get nice like on main site / GTI plugins?
     
@@ -17,6 +14,9 @@ font
 DONE
 ----
 
+testimonials
+    position quote font awesome top centre of box
+    
 colours
     h2 set base font colours?
     a - css variables
