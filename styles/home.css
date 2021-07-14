@@ -1,32 +1,4 @@
 /***********************************************/
-/* nav */
-.navbar .nav-link,
-.navbar .navbar-brand,
-.navbar .dropdown-item {
-    color: var(--pom-blue);
-    cursor: pointer;
-}
-
-.nav-link {
-    margin-right: 1em !important;
-}
-
-.nav-link.active,
-.dropdown-item.active {
-    font-weight: bold;
-    background-color: #fff;
-}
-
-.navbar .dropdown-menu {
-    border: 1px solid var(--pom-blue);
-}
-
-.navbar-toggler {
-    background-color: var(--pom-blue);
-}
-
-
-/***********************************************/
 /* home page header */
 header {
     background-image: url('../images/sailing.jpg');
