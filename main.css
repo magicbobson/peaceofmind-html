@@ -85,24 +85,13 @@ h3 {
 
 
 /***********************************************/
-/* font awesome */
-.icon {
-    color: var(--pom-blue);
-}
-.icon-circle { 
-    font-size: 2.1rem;
-    position: relative;
-    top: -0.1rem;
-}
-
-
-/***********************************************/
 /* landing page header */
-.header {
+header {
     background-image: url('images/sailing.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
+    height: calc(100vh - 75px);
 }
 
 /* this will darken the image */
@@ -116,33 +105,31 @@ h3 {
 }
 
 /* header content */
-.header-content {
-    height: 100%;
-    text-align: center;
-}
-
-.header-content .row {
-    height: 50%;
-    /* border: 1px solid red; */
-}
-
-.header-content .col {
-    display: flex;
-}
-
-.header-content .title {
-    font-size: 1.8rem;
+header h1 {
+    font-size: 1.6rem;
  	color: var(--pom-blue);
-    align-items: flex-end;
-    /* padding-bottom: 100px; */
+    line-height: 1.5;
 }
 
-.header-content .strap {
-    text-align: center;
+header h2 {
 	color: #fff;
 	font-size: 1.5rem;
-    /* display: flex; */
-    /* align-items: flex-start; */
+}
+
+header .cta-holder {
+    position: absolute;
+    bottom: 20px;
+    left: 48%;
+}
+header .cta-holder .icon {
+    /* margin-top: -100px; */
+    /* font-size: 2rem; */
+    /* color: #fff; */
+}
+header .cta-holder .icon-circle { 
+    /* font-size: 3rem; */
+    /* position: relative; */
+    /* top: -0.1rem; */
 }
 
 
@@ -219,6 +206,18 @@ h3 {
     border: 1px solid gray;
     text-align: center;    
     margin-bottom: 50px;
+}
+
+
+/***********************************************/
+/* font awesome */
+.icon {
+    color: var(--pom-blue);
+}
+.icon-circle { 
+    font-size: 2.1rem;
+    position: relative;
+    top: -0.1rem;
 }
 
 
