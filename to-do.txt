@@ -2,10 +2,6 @@
 peaceofmind stuff to fix
 ------------------------
 
-header
-    h2 get text in right position?
-    CTA arrow scroll down to content
-
 font
     h2 get nice like on main site / GTI plugins?
     
@@ -14,6 +10,10 @@ font
 DONE
 ----
 
+header
+    h2 get text in right position?
+    CTA arrow scroll down to content
+    
 testimonials
     position quote font awesome top centre of box
     

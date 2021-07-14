@@ -112,12 +112,6 @@ h3 {
 
 /***********************************************/
 /* footer */
-.footer-links {
-    font-weight: bold;
-    background-color: #fff;
-    margin-bottom: 10px;
-}
-
 .footer-links a {
     color: var(--pom-blue);
 }
