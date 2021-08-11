@@ -4,14 +4,22 @@
     --pom-blue: #2271c3;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
+/* body, h1, h2, h3, h4, h5, h6, p { */
+/* body {
+    font-family: 'Poppins', sans-serif;
+} */
+
 body {
     padding: 0;
     margin: 0;
-    font-family: "Open-Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "Open-Sans", Arial, Helvetica, sans-serif; */
     text-align: justify;
     color: #444;
 }
