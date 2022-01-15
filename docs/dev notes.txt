@@ -1,0 +1,12 @@
+
+To deploy
+---------
+
+1. Push changes to Github
+It has an action which will automatically deploy to Firebase
+
+
+2. Or for quick test...
+run "firebase deploy" in VSCode terminal
+
+
