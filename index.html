@@ -33,28 +33,237 @@
 <body>
 
     <!-- nav -->
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md container">
         <a class="navbar-brand" href="index.html">
             <img src="images/financial-planning-logo.jpg" width="200" class="d-inline-block align-top"
                 alt="Peace of Mind Financial Planning">
-        </a>        
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-me.html">About me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/files/privacy.pdf" target="_blank">Privacy notice</a>
+                        <a class="dropdown-item" href="complaints.html">Complaints</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
     </nav>
 
-    <!-- holding text -->
-    <header class="container-fluid header px-5 border">
 
-        <div class="row h-50 align-items-center">
-            <h1>This website is currently being updated, and will be available again in early November.</h1>
-        </div>
-        <div class="row h-50 align-items-center">
-            <div>
-                <h2 class="m-0">Please contact Iain Crowley in the meantime if needed.</h2>
-                <h3 class="m-0 text-white"><i class="fas fa-phone my-3"></i> 07920 454005</h3>
-                <h3 class="m-0 text-white"><i class="fas fa-envelope"></i><a class="ml-2 text-white" href="mailto:iaincrowley@virginmedia.com">iaincrowley@virginmedia.com</a></h3>
-            </div>
+    <!-- full width landing page header with css background image -->
+    <header class="container-fluid d-flex flex-column header justify-content-center">
+
+        <!-- this will darken the image -->
+        <!-- <div class="overlay"></div> -->
+
+        <h1 class="">
+            Navigating your Pensions? <br />
+            Needing to make an Investment?
+        </h1>
+        <h2 class="mt-5 mb-5 mb-sm-0">I'm here to help.</h2>
+
+        <div class="cta-holder">
+            <a href="#features">
+                <span class="fa-stack fa-2x text-light">
+                    <i class="far fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-arrow-down fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
         </div>
 
     </header>
+
+    <!-- two column section -->
+    <div class="container">
+    
+        <div id="features" class="mt-5 pt-5 mb-4">
+            <div class="row">
+
+                <!-- bullets -->
+                <div class="col-lg-6 pl-2 mb-2">
+                    <h2 class="">Advice on Pensions and Investments</h2>
+                    <div class="row mt-4">
+                        <div class="col-1">
+                            <span class="fa-stack icon">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-user-friends fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <div class="col ml-3 ml-sm-1">
+                            <h3 class="mb-2">Pensions</h3>
+                            <p>For advice on setting up a suitable Pension to help you meet your retirement goals.   Helping 
+                                you to take money out in the most sensible and tax-efficient way, whether through Drawdown or an Annuity.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-1">
+                            <span class="fa-stack icon">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-thumbs-up fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <div class="col ml-3 ml-sm-1">
+                            <h3 class="mb-2">Investments</h3>
+                            <p>
+                                Helping where you have a sum of money to invest for at least 5 years.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-1">
+                            <span class="fa-stack icon">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-cloud fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <div class="col ml-3 ml-sm-1">
+                            <h3 class="mb-2">Experience</h3>
+                            <p>
+                                As an <span class="font-weight-bold">Independent Financial Adviser</span> I can recommend 
+                                the best value products and investment funds from the whole of the UK market.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /bullets -->
+
+                <div class="col-lg-6">
+                    <h2 class="">Contact details</h2>
+                    <div class="row mt-4">
+                        <div class="col-1">
+                            <span class="fa-stack icon">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-phone fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <div class="col ml-3 ml-sm-1">
+                            <p>
+                                07920 454005
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-1">
+                            <span class="fa-stack icon">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <div class="col ml-3 ml-sm-1">
+                            <p>
+                                iaincrowley@virginmedia.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-1">
+                            <span class="fa-stack icon">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-home fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <div class="col ml-3 ml-sm-1">
+                            <p>
+                                22 Glebe Road <br />
+                                Royal Wootton Bassett <br />
+                                Swindon, SN4 7DU
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card bg-light mb-5 pb-0">
+            <div class="card-body pt-2 pb-0">
+                <div class="mb-2 text-center">
+                    <span class="fa-stack fa-sm text-danger">
+                        <i class="fas fa-info fa-stack-1x"></i>
+                        <i class="far fa-circle fa-stack-2x"></i>
+                    </span>
+                </div>
+                <p>
+                    The information contained within this website is subject to the UK regulatory regime and is therefore targeted at consumers based in the UK.
+                </p>
+                <p>
+                    The value of pensions and investments and the income they produce can fall as well as rise. You may get back less than you invested.
+                </p>
+            </div>
+        </div>
+
+        <div class="jumbotron cta mt-5 p-5 text-center text-light">
+            <h2 class="text-center">Want to know more?</h2>
+            <p>
+                Just call or write - I'll be happy to answer any questions you have. <br />
+                I will be pleased to help you make the right choices.
+            </p>
+            <button class="btn btn-outline-light btn-lg"><a href="mailto:iaincrowley@virginmedia.com">get in touch</a></button>
+        </div>
+
+    </div>
+    <!-- / container -->
+
+
+    <!-- footer links -->
+    <!-- <div class="container footer-links mb-4 text-center font-weight-bold">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3"><a href="/files/privacy.pdf" target="_blank">Privacy notice</a></div>
+            <div class="col-3"><a href="complaints.html">Complaints</a></div>
+            <div class="col-3"></div>
+        </div>
+    </div> -->
+    <!-- footer -->
+    <footer class="page-footer pt-5 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <p>
+                        <i class="fas fa-phone"></i><br />
+                        07920 454005
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope"></i><br />
+                        iaincrowley@virginmedia.com
+                    </p>
+                    <p>
+                        <i class="fas fa-home"></i> <br />
+                        22 Glebe Road <br />
+                        Royal Wootton Bassett <br />
+                        Swindon, SN4 7DU
+                    </p>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                    <p>Peace of Mind Financial Planning is a trading style of Peace of Mind Pensions &amp; Investments Ltd, an appointed
+                        representative of Rosemount Financial Solutions (IFA) Ltd which is authorised and regulated by the Financial
+                        Conduct Authority. Entered on the FCA Register (https://register.fca.org.uk/) under reference 535515. Peace of
+                        Mind Pensions &amp; Investments Ltd is Registered in England and Wales, No: 11544801.  Registered Address:  22
+                        Glebe Road, Royal Wootton Bassett, Swindon, SN4 7DU.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright mt-5 pb-5 text-center text-muted">&#169; 2023 Copyright: peaceofmindfp.co.uk</div>
+    </footer>
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -69,5 +278,6 @@
     <script src="main.js"></script>
 
 </body>
+
 
 </html>
