@@ -1,12 +1,24 @@
-
 To deploy
 ---------
 
 1. Push changes to Github
-It has an action which will automatically deploy to Firebase
+It has an action which will automatically deploy to Firebase (workflow triggers on branch 'master' — update if your default branch is 'main').
 
+2. Or for quick test (local):
+- Make sure you are in the project folder:
+  cd C:\GIT_PROJECTS\peaceofmind-html
 
-2. Or for quick test...
-run "firebase deploy" in VSCode terminal
+- Use nvm-windows to manage Node (install from https://github.com/coreybutler/nvm-windows/releases/latest):
+  nvm install 18.20.1
+  nvm use 18.20.1
+  node -v
+  npm -v
+
+- Deploy with Firebase CLI without global install:
+  npx firebase login
+  npx firebase deploy --only hosting
+
+- If you see permission errors or the CLI is scanning your whole drive, run with debug to inspect:
+  npx firebase deploy --only hosting --debug
 
 

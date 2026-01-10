@@ -1,0 +1,18 @@
+# Ignore node modules and VCS
+node_modules/
+.git/
+
+# Logs and OS artifacts
+*.log
+.DS_Store
+Thumbs.db
+
+# Windows swap/page files
+swapfile.sys
+pagefile.sys
+**/swapfile.sys
+**/pagefile.sys
+
+# Firebase config and local env
+firebase-debug.log
+.env
